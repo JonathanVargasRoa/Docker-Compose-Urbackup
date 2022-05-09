@@ -31,6 +31,9 @@ After we pull the latest version of Urbackup server image, now we are ready to r
 
 ```
 
+<img src='./src/1.png' width='200'/> 
+<img src='./src/2.png' width='200'/> 
+
 #docker run -d --name urbackup-server-1 -v /media/backups:/backups -v /media/database:/var/urbackup -p 55413-55415:55413-55415 -p 35623:35623/udp uroni/urbackup-server
 
 ```

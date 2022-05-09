@@ -18,20 +18,30 @@ A. Pull the Latest UrBackup Image
 
 In Terminal, use this command to download/pull the latest version of UrBackup Server docker image.
 
- ---- docker pull uroni/urbackup-server
+```
+
+ # docker pull uroni/urbackup-server
+ 
+ ```
 
 This will download the image from the internet. It will take few minutes depends on your internet speed. 
 B. Create UrBackup Container
 
 After we pull the latest version of Urbackup server image, now we are ready to run a new docker container with this command
 
-----docker run -d --name urbackup-server-1 -v /media/backups:/backups -v /media/database:/var/urbackup -p 55413-55415:55413-55415 -p 35623:35623/udp uroni/urbackup-server
+```
+
+#docker run -d --name urbackup-server-1 -v /media/backups:/backups -v /media/database:/var/urbackup -p 55413-55415:55413-55415 -p 35623:35623/udp uroni/urbackup-server
+
+```
 
 You can change the urbackup-server-1 into something else. And also please note that the command will use and mount the /media/backups and /media/database directory in the host to store the backup. 
 
 Now make sure if this new container is up and running with ps command
 
-----docker ps
+```
+#docker ps
+```
 
 Output
 
@@ -39,7 +49,9 @@ C. Configure the UrBackup via Web Interface
 
 Open a web browser and then type the docker host IP address followed by the Urbackup port 55414. For example:
 
-----192.168.100.200:55414
+```
+#192.168.100.200:55414
+```
 
 You should see the following 
 

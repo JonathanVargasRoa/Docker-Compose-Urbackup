@@ -66,7 +66,7 @@ Our backup server is up and running. Now, we can add the client to backup to thi
 Once installed, the UrBackup Server will automatically detects the clients if they are in the same network. For more advanced options, you can open the Settings page on the client. 
 
 
-<img src='./src/1.png' width='200'/> 
-<img src='./src/2.png' width='200'/> 
+<img src='1.png' width='200'/> 
+<img src='2.png' width='200'/> 
 
 

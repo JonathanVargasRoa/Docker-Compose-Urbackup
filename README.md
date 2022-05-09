@@ -3,7 +3,7 @@
 
 How to Install UrBackup Server using Docker Container
 
-September 28, 2018 admin Backup, Docker, Virtualization 1
+September 28, 2022 admin Backup, Docker, Virtualization 1
 
 UrBackup is a free, powerful backup tool available for Windows, Mac, and also Linux. On my previous tutorial, you can see how to install Urbackup Server on Ubuntu. But today, I am going to show you how to install UrBackup Server using Docker Container. So basically I am going to deploy a new Urbackup server container on top of Docker. First thing first, we need to have Docker engine installed on the system. You can read the following tutorial to install Docker on several systems:
 
